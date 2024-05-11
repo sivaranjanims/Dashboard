@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<!-- Coding by CodingNepal || www.codingnepalweb.com -->
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Boxicons CSS -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <title>Side Navigation Bar in HTML CSS JavaScript</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar">
+      <div class="logo_item">
+        <i class="bx bx-menu" id="sidebarOpen"></i>
+        <img src="images/logo.png" alt=""></i>DESIGN HUB
+      </div>
+
+      <div  class="search_bar">
+       <p  class="search_bar1">
+    <img src="./images/fluent-emoji_raised-hand-light.png" height="10px !important" 
+    width="10px !important"/>   
+        Good Morning Aysha</p>
+       <div  class="search_bar2"> Good Morning Aysha</div>
+      </div>
+
+      <div class="navbar_content">
+        <i class="bi bi-grid" style="border:none;"></i>
+        <p style="border:1px solid #0ACF83"><i class="fa fa-search"></i></p>
+        <p style="border:1px solid #F24E1E">
+          <i class='bx bx-bell' style="position: relative;">
+            <span style="position: absolute;
+            top: -3px;
+            right: 0px;
+            background-color: red;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;"></span>
+          </i>
+          </p>
+        <img src="images/profile.jpg" alt="" class="profile" />
+      </div>
+    </nav>
+
+    <!-- sidebar -->
+    <nav class="sidebar">
+      <div class="menu_content">
+        <ul class="menu_items">
+          
+         
+          <!-- duplicate or remove this li tag if you want to add or remove navlink with submenu -->
+          <!-- start -->
+          <li class="item">
+            <a href="#" class="nav_link submenu_item">
+              <span class="navlink_icon">
+                <i class="material-icons">&#xe871;</i>
+              </span>
+              <span class="navlink">DASHBOARD</span>
+              <!-- <i class="bx bx-chevron-right arrow-left"></i> -->
+            </a>
+
+            <!-- <ul class="menu_items submenu">
+              <a href="#" class="nav_link sublink">Nav Sub Link</a>
+              <a href="#" class="nav_link sublink">Nav Sub Link</a>
+              <a href="#" class="nav_link sublink">Nav Sub Link</a>
+              <a href="#" class="nav_link sublink">Nav Sub Link</a>
+            </ul> -->
+          </li>
+          <!-- end -->
+
+          <!-- duplicate this li tag if you want to add or remove  navlink with submenu -->
+          <!-- start -->
+          <li class="item">
+            <a href="#" class="nav_link submenu_item">
+              <span class="navlink_icon">
+                <i class="fa fa-briefcase"></i>
+              </span>
+              <span class="navlink">PROJECTS</span>
+              
+            </a>
+
+            
+          </li>
+          <!-- end -->
+        </ul>
+
+        <ul class="menu_items">
+         
+          <!-- duplicate these li tag if you want to add or remove navlink only -->
+          <!-- Start -->
+          <li class="item">
+            <a href="#" class="nav_link">
+              <span class="navlink_icon">
+                <i class="fa fa-bars"></i>
+              </span>
+              <span class="navlink">MY TASK</span>
+            </a>
+          </li>
+          <!-- End -->
+
+          <li class="item">
+            <a href="#" class="nav_link">
+              <span class="navlink_icon">
+                <i class="fa fa-calendar" aria-hidden="true"></i>
+              </span>
+              <span class="navlink">CALENDER</span>
+            </a>
+          </li>
+          <li class="item">
+            <a href="#" class="nav_link">
+              <span class="navlink_icon">
+                <i class="fa fa-clock-o"></i>
+              </span>
+              <span class="navlink">TIME MANAGEMENT</span>
+            </a>
+          </li>
+          <li class="item">
+            <a href="#" class="nav_link">
+              <span class="navlink_icon">
+                <i class="fa fa-bars"></i>
+              </span>
+              <span class="navlink">REPORTS</span>
+            </a>
+          </li>
+        </ul>
+        <ul class="menu_items">
+          
+          <li class="item">
+            <a href="#" class="nav_link">
+              <span class="navlink_icon">
+                <i class="fa fa-plus"></i>
+              </span>
+              <span class="navlink">ADD NEW TASK</span>
+            </a>
+          </li>
+        
+        </ul>
+
+        <!-- Sidebar Open / Close -->
+        <div class="bottom_content">
+        <ul>
+          <li class="item">
+            <a href="#" class="nav_link">
+              <span class="navlink_icon">
+                <i class="fa fa-gear"></i>
+              </span>
+              <span class="navlink">SETTING</span>
+            </a>
+          </li>
+          <li class="item">
+            <a href="#" class="nav_link">
+              <span class="navlink_icon">
+                <i class="fa fa-sign-out"></i>
+              </span>
+              <span class="navlink">LOGOUT</span>
+            </a>
+          </li>
+        </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Additional Content -->
+    <div class="content-side">
+      <div class="grid-cards">
+        <div class="1">
+<img src="./images/01.png">
+        </div>
+        <div class="1">
+          <img src="./images/02.png">
+        </div>
+        <div class="1">
+          <img src="./images/03.png">
+        </div>
+        <div class="1">
+          <img src="./images/04.png">
+        </div>
+       
+      </div>
+<br> 
+      <div class="double-grid">
+        <div class="firsttt">
+<img src="./images/google.png" />
+<br>
+<img src="./images/zoho.png" />
+        </div>
+        <div class="secc">
+          <img src="./images/tt.png" />
+         
+          <img src="./images/about project.png" class="abt" />
+        </div>
+        <div class="trd">
+          <img src="./images/calender1.png" />
+          
+          <img src="./images/team.png" class="img1"/>
+        </div>
+      </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <script src="script.js"></script>
+  </body>
+</html>
